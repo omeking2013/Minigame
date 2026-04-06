@@ -1,0 +1,20 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 3/4/2569 18:55:19
+================================================================
+[18:55:54][Watcharapong_Soponpa] created admins file
+[18:56:44][Watcharapong_Soponpa] Config changes: general.serverName
+[18:56:44][Watcharapong_Soponpa] Changing global settings via setup stepper and started Deployer.
+[18:56:50][Watcharapong_Soponpa] Setting recipe.
+[18:58:44][Watcharapong_Soponpa] Running recipe.
+[18:58:51][Watcharapong_Soponpa] Config changes: server.dataPath
+[18:58:51][Watcharapong_Soponpa] Completed and committed server deploy.
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 3/4/2569 18:59:08
+================================================================
+[18:59:19][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 3/4/2569 19:13:20
+================================================================
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 3/4/2569 19:15:20
+================================================================

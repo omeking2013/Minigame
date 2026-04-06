@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "Minigame"
+  },
+  "server": {
+    "dataPath": "D:/Fivem WorkStation/Servers/Server.Minigame/txData/FiveMBasicServerCFXDefault_CFAAF0.base/"
+  }
+}

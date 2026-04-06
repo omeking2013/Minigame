@@ -1,0 +1,413 @@
+================================================================
+======== Log Rotated - 4/4/2569 12:41:16                        
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [11068] FXServer Starting - 4/4/2569 12:41:17          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mg_core
+[    c-scripting-core] Failed to load script @oxmysql/lib/MySQL.lua.
+[           resources] Started resource mg_core
+[      script:mg_core] SCRIPT ERROR: @mg_core/server/db.lua:9: attempt to index a nil value (global 'MySQL')
+[      script:mg_core] > fn (@mg_core/server/db.lua:9)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [23660] FXServer Starting - 4/4/2569 12:49:01          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] Error: Ignoring invalid configuration option passed to Connection: . This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+[      script:oxmysql] Error: Unable to establish a connection to the database!
+[      script:oxmysql] [Error: Access denied for user ''@'localhost' (using password: NO)]
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.5.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.12.0
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [24744] FXServer Starting - 4/4/2569 12:51:28          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] Error: Ignoring invalid configuration option passed to Connection: . This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+[      script:oxmysql] Error: Unable to establish a connection to the database!
+[      script:oxmysql] [Error: Access denied for user ''@'localhost' (using password: NO)]
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.5.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.12.0
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": read tcp 10.0.16.206:42510->223.206.250.253:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [2984] FXServer Starting - 4/4/2569 12:59:16           
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+m4...8gh3) does not exist.↩
+[38;5;66m[          svadhesive] Error: Could not authenticate server license key. The specified key (imm4...8gh3) does not exist.
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [25000] FXServer Starting - 4/4/2569 12:59:39          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.5.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.12.0
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19416] FXServer Starting - 4/4/2569 13:00:53          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:mg_core] [mg_core] player Brain loaded: []
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [28276] FXServer Starting - 4/4/2569 13:03:52          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:mg_core] [mg_core] getMyData from Brain
+[      script:mg_core] [mg_core] sending data to Brain: []
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [500] FXServer Starting - 4/4/2569 13:08:53            
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[      script:mg_core] Error parsing script @mg_core/server/main.lua in resource mg_core: @mg_core/server/main.lua:90: <name> expected near '<'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": read tcp 10.0.16.207:49084->223.206.250.253:30120: read: connection reset by peer)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [27720] FXServer Starting - 4/4/2569 13:12:04          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[      script:mg_core] Error parsing script @mg_core/server/main.lua in resource mg_core: @mg_core/server/main.lua:90: <name> expected near '<'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [6104] FXServer Starting - 4/4/2569 13:12:35           
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for mg_core
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:mg_core] [mg_core] Sending player data to Brain
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Sending player data to Brain
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": read tcp 10.0.11.94:32772->223.206.250.253:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": read tcp 10.0.16.207:44144->223.206.250.253:30120: read: connection reset by peer)
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": read tcp 10.0.16.206:58450->223.206.250.253:30120: read: connection reset by peer)
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": read tcp 10.0.16.206:40426->223.206.250.253:30120: read: connection reset by peer)
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 0 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Sending player data to Brain
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": read tcp 10.0.16.207:33294->223.206.250.253:30120: read: connection reset by peer)
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": read tcp 10.0.16.207:39790->223.206.250.253:30120: read: connection reset by peer)
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/dynamic.json (Get "https://223.206.250.253:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/info.json (Get "https://223.206.250.253:30120/info.json": read tcp 10.0.16.207:56656->223.206.250.253:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.250.253:30120/players.json (Get "https://223.206.250.253:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:mg_core] [mg_core] Auto-saved 1 players

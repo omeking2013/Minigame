@@ -1,0 +1,86 @@
+/* ============================================================
+   ui/style.css — ใส่แค่โครงพื้นฐาน แก้ design ตาม resource
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* ── ตั้งค่าสีที่นี่ที่เดียว ────────────────────────── */
+  --bg-panel:  rgba(14, 17, 26, 0.97);
+  --accent:    #5b7cfa;
+  --text-1:    #e8eaf0;
+  --text-2:    #9aa0b4;
+  --border:    rgba(255, 255, 255, 0.08);
+  --radius:    12px;
+  --font:      'Segoe UI', 'Noto Sans Thai', sans-serif;
+}
+
+html, body {
+  width: 100%; height: 100%;
+  background: transparent;
+  font-family: var(--font);
+  font-size: 14px;
+  color: var(--text-1);
+  overflow: hidden;
+  user-select: none;
+}
+
+/* ── Layout ─────────────────────────────────────────────── */
+#app {
+  width: 100vw; height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app.hidden { display: none; }
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Panel sections ─────────────────────────────────────── */
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-body   { padding: 20px; flex: 1; }
+.panel-footer {
+  padding: 14px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+button {
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+button:hover   { opacity: 0.85; }
+button:active  { opacity: 0.7;  }
+
+.btn-primary { background: var(--accent); color: #fff; }
+
+#btn-close {
+  background: transparent;
+  color: var(--text-2);
+  padding: 4px 8px;
+  font-size: 16px;
+}
