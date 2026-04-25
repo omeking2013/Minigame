@@ -1,0 +1,122 @@
+/* ============================================================
+   ui/style.css — ใส่แค่โครงพื้นฐาน แก้ design ตาม resource
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* ── ตั้งค่าสีที่นี่ที่เดียว ────────────────────────── */
+  --bg-panel:  rgba(14, 17, 26, 0.97);
+  --accent:    #64B98E;
+  --text-1:    #e8eaf0;
+  --text-2:    #9aa0b4;
+  --border:    rgba(255, 255, 255, 0.08);
+  --radius:    12px;
+  --font:      'Segoe UI', 'Noto Sans Thai', sans-serif;
+}
+
+html, body {
+  width: 100%; height: 100%;
+  background: transparent;
+  font-family: var(--font);
+  font-size: 14px;
+  color: var(--text-1);
+  overflow: hidden;
+  user-select: none;
+}
+
+.app {
+  position: fixed;
+  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282A31;
+  z-index: 9999;
+}
+
+.mute_music {
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  width: 3vh;
+  height: 3vh;
+  font-size: 2vh;
+  color: var(--text-1);
+  cursor: pointer;
+}
+
+.logo {
+  width: 20vh;
+  height: 20vh;
+  margin-bottom: 20px;
+  border: 0.5vh solid var(--border);
+  background: url('assets/images/logo.png') no-repeat center/100% 100%;
+  animation: logo-easy 3s linear infinite;
+}
+
+@keyframes logo-easy {
+  0% { transform: rotate(-3deg); }
+  25% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
+
+.load-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.load-text {
+  font-size: 1.6vh;
+  color: var(--text-1);
+}
+
+.load-text2 {
+  font-size: 1.2vh;
+  color: var(--text-2);
+}
+
+.load-bar {
+  width: 40vh;
+  height: 2vh;
+  margin-top: 10px;
+  border: 0.5vh solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.load-progress {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.start-game_button {
+  margin-top: 1vh;
+  padding: 1vh 4vh;
+  background-color: var(--accent);
+  color: var(--text-1);
+  border: none;
+  border-radius: var(--radius);
+
+  font-size: 1.6vh;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.2s ease;
+  pointer-events: all; 
+  cursor: pointer;
+}
+
+.start-game_button:hover {
+  transform: scale(1.1);
+}
+
+.start-game_button:active {
+  transform: scale(0.9);
+}

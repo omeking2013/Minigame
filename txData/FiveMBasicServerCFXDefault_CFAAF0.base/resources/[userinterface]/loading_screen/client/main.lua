@@ -1,0 +1,5 @@
+RegisterNUICallback('startgame', function(_, cb)
+    cb('ok')
+    ShutdownLoadingScreenNui()
+    print("Starting game...")
+end)

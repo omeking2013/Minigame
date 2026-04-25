@@ -1,34 +1,56 @@
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 12:41:14
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 25/4/2569 10:59:32
 ================================================================
 ================================================================
-======== Log Rotated - 4/4/2569 12:41:16                        
+======== Log Rotated - 25/4/2569 10:59:33                       
+================================================================
+[10:59:48][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[11:02:22][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure loadscreen"
+[11:02:26][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure load_screen"
+[11:02:29][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure loadScreen"
+[11:02:33][Watcharapong_Soponpa] Ensured resource "loading_screen"
+[11:02:40][Watcharapong_Soponpa] Refreshed resources
+[11:02:42][Watcharapong_Soponpa] Ensured resource "loading_screen"
+[11:05:05][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[11:05:51][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:05:52][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[11:05:56][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:06:14][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:06:16][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:06:26][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:06:26][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:06:29][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:06:30][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:02][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:02][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:04][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:04][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:23][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:24][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:25][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:25][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:45][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:46][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:47][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:47][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:07:51][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:07:52][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:13:43][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:13:44][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:14:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:14:01][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:14:08][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:14:08][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:15:03][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[11:15:04][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure db_manager"
+[11:15:05][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 25/4/2569 11:18:00
 ================================================================
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 12:48:59
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 25/4/2569 11:31:40
 ================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 12:51:28
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 12:59:16
-================================================================
-[12:59:22][MONITOR] Restarting server: Server process close detected.
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 12:59:38
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 13:00:52
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 13:03:51
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 13:08:52
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 13:12:03
-================================================================
-================================================================
-======== txAdmin v8.0.1 atop fxserver 25770 Starting - 4/4/2569 13:12:35
-================================================================
+[12:08:36][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[12:08:39][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "RESTART SERVER"
+[12:27:48][Watcharapong_Soponpa] Ensured resource "loading_screen"
+[12:32:29][Watcharapong_Soponpa] Stopped resource "loading_screen"

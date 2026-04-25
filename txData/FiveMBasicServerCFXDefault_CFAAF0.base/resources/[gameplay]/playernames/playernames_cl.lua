@@ -1,115 +1,141 @@
-local mpGamerTags = {}
-local mpGamerTagSettings = {}
+-- ============================================================
+-- playernames_cl.lua  (Client-side)
+-- แสดงชื่อผู้เล่นเหนือหัวโดยใช้ MP Gamer Tag system
+-- ============================================================
 
-local gtComponent = {
-    GAMER_NAME = 0,
-    CREW_TAG = 1,
-    healthArmour = 2,
-    BIG_TEXT = 3,
-    AUDIO_ICON = 4,
-    MP_USING_MENU = 5,
-    MP_PASSIVE_MODE = 6,
-    WANTED_STARS = 7,
-    MP_DRIVER = 8,
-    MP_CO_DRIVER = 9,
-    MP_TAGGED = 10,
-    GAMER_NAME_NEARBY = 11,
-    ARROW = 12,
-    MP_PACKAGES = 13,
+-- ============================================================
+-- Constants: ID ของแต่ละ component ใน Gamer Tag
+-- ============================================================
+local GamerTagComponent = {
+    GAMER_NAME           = 0,
+    CREW_TAG             = 1,
+    HEALTH_ARMOUR        = 2,
+    BIG_TEXT             = 3,
+    AUDIO_ICON           = 4,
+    MP_USING_MENU        = 5,
+    MP_PASSIVE_MODE      = 6,
+    WANTED_STARS         = 7,
+    MP_DRIVER            = 8,
+    MP_CO_DRIVER         = 9,
+    MP_TAGGED            = 10,
+    GAMER_NAME_NEARBY    = 11,
+    ARROW                = 12,
+    MP_PACKAGES          = 13,
     INV_IF_PED_FOLLOWING = 14,
-    RANK_TEXT = 15,
-    MP_TYPING = 16
+    RANK_TEXT            = 15,
+    MP_TYPING            = 16,
 }
 
-local function makeSettings()
+-- ============================================================
+-- State
+-- ============================================================
+
+-- gamer tag ที่ถูกสร้างแล้วของแต่ละ player
+-- [playerIndex] = { tag = tagId, ped = pedHandle }
+local activeTags = {}
+
+-- settings ต่อ player (รับมาจาก server ผ่าน playernames:configure)
+-- [playerIndex] = settings table
+local tagSettings = {}
+
+-- template string ปัจจุบัน (รับมาจาก server)
+local templateStr = nil
+
+-- ============================================================
+-- Settings helpers
+-- ============================================================
+local function makeDefaultSettings()
     return {
-        alphas = {},
-        colors = {},
+        alphas      = {},
+        colors      = {},
+        toggles     = {},
         healthColor = false,
-        toggles = {},
-        wantedLevel = false
+        wantedLevel = false,
+        serverName  = nil,    -- ชื่อที่ถูก sync มาจาก server (ใช้ใน template {{serverName}})
+        rename      = false,  -- flag: ต้อง rebuild ชื่อใหม่
     }
 end
 
-local templateStr
+local function getOrCreateSettings(playerId)
+    if not tagSettings[playerId] then
+        tagSettings[playerId] = makeDefaultSettings()
+    end
+    return tagSettings[playerId]
+end
 
+-- ============================================================
+-- Main loop: อัปเดต gamer tag ทุก frame
+-- ============================================================
 function updatePlayerNames()
-    -- re-run this function the next frame
     SetTimeout(0, updatePlayerNames)
 
-    -- return if no template string is set
-    if not templateStr then
-        return
-    end
+    -- ยังไม่มี template → รอก่อน
+    if not templateStr then return end
 
-    -- get local coordinates to compare to
-    local localCoords = GetEntityCoords(PlayerPedId())
+    local localPed    = PlayerPedId()
+    local localCoords = GetEntityCoords(localPed)
+    local localId     = PlayerId()
 
-    -- for each valid player index
-    for _, i in ipairs(GetActivePlayers()) do
-        -- if the player exists
-        if i ~= PlayerId() then
-            -- get their ped
-            local ped = GetPlayerPed(i)
+    for _, playerId in ipairs(GetActivePlayers()) do
+        -- ข้ามตัวเอง
+        -- if playerId ~= localId then
+            local ped       = GetPlayerPed(playerId)
             local pedCoords = GetEntityCoords(ped)
+            local settings  = getOrCreateSettings(playerId)
+            local current   = activeTags[playerId]
 
-            -- make a new settings list if needed
-            if not mpGamerTagSettings[i] then
-                mpGamerTagSettings[i] = makeSettings()
-            end
+            -- ตรวจว่าต้องสร้าง gamer tag ใหม่หรือไม่
+            -- (ped เปลี่ยนเมื่อ model เปลี่ยน หรือ tag ถูก game ลบทิ้ง)
+            local needsRebuild = not current
+                              or current.ped ~= ped
+                              or not IsMpGamerTagActive(current.tag)
 
-            -- check the ped, because changing player models may recreate the ped
-            -- also check gamer tag activity in case the game deleted the gamer tag
-            if not mpGamerTags[i] or mpGamerTags[i].ped ~= ped or not IsMpGamerTagActive(mpGamerTags[i].tag) then
-                local nameTag = formatPlayerNameTag(i, templateStr)
-
-                -- remove any existing tag
-                if mpGamerTags[i] then
-                    RemoveMpGamerTag(mpGamerTags[i].tag)
+            if needsRebuild then
+                if current then
+                    RemoveMpGamerTag(current.tag)
                 end
 
-                -- store the new tag
-                mpGamerTags[i] = {
-                    tag = CreateMpGamerTag(GetPlayerPed(i), nameTag, false, false, '', 0),
-                    ped = ped
+                local displayName = formatPlayerNameTag(playerId, templateStr)
+                activeTags[playerId] = {
+                    tag = CreateMpGamerTag(ped, displayName, false, false, '', 0),
+                    ped = ped,
                 }
+                current = activeTags[playerId]
             end
 
-            -- store the tag in a local
-            local tag = mpGamerTags[i].tag
+            local tag = current.tag
 
-            -- should the player be renamed? this is set by events
-            if mpGamerTagSettings[i].rename then
-                SetMpGamerTagName(tag, formatPlayerNameTag(i, templateStr))
-                mpGamerTagSettings[i].rename = nil
+            -- อัปเดตชื่อถ้า server ส่งชื่อใหม่มา
+            if settings.rename then
+                SetMpGamerTagName(tag, formatPlayerNameTag(playerId, templateStr))
+                settings.rename = false
             end
 
-            -- check distance
-            local distance = #(pedCoords - localCoords)
+            -- ตรวจสอบระยะและ line-of-sight
+            local dist    = #(pedCoords - localCoords)
+            local visible = dist < PlayerNamesConfig.visibleDistance
+                         and HasEntityClearLosToEntity(localPed, ped, 17)
 
-            -- show/hide based on nearbyness/line-of-sight
-            -- nearby checks are primarily to prevent a lot of LOS checks
-            if distance < 250 and HasEntityClearLosToEntity(PlayerPedId(), ped, 17) then
-                SetMpGamerTagVisibility(tag, gtComponent.GAMER_NAME, true)
-                SetMpGamerTagVisibility(tag, gtComponent.healthArmour, IsPlayerTargettingEntity(PlayerId(), ped))
-                SetMpGamerTagVisibility(tag, gtComponent.AUDIO_ICON, NetworkIsPlayerTalking(i))
+            if visible then
+                -- แสดง components หลัก
+                SetMpGamerTagVisibility(tag, GamerTagComponent.GAMER_NAME,    true)
+                SetMpGamerTagVisibility(tag, GamerTagComponent.HEALTH_ARMOUR, IsPlayerTargettingEntity(localId, ped))
+                SetMpGamerTagVisibility(tag, GamerTagComponent.AUDIO_ICON,    NetworkIsPlayerTalking(playerId))
 
-                SetMpGamerTagAlpha(tag, gtComponent.AUDIO_ICON, 255)
-                SetMpGamerTagAlpha(tag, gtComponent.healthArmour, 255)
+                SetMpGamerTagAlpha(tag, GamerTagComponent.AUDIO_ICON,    255)
+                SetMpGamerTagAlpha(tag, GamerTagComponent.HEALTH_ARMOUR, 255)
 
-                -- override settings
-                local settings = mpGamerTagSettings[i]
-
+                -- ใช้ settings ที่ถูก override จาก server/script อื่น
                 for k, v in pairs(settings.toggles) do
-                    SetMpGamerTagVisibility(tag, gtComponent[k], v)
+                    SetMpGamerTagVisibility(tag, GamerTagComponent[k], v)
                 end
 
                 for k, v in pairs(settings.alphas) do
-                    SetMpGamerTagAlpha(tag, gtComponent[k], v)
+                    SetMpGamerTagAlpha(tag, GamerTagComponent[k], v)
                 end
 
                 for k, v in pairs(settings.colors) do
-                    SetMpGamerTagColour(tag, gtComponent[k], v)
+                    SetMpGamerTagColour(tag, GamerTagComponent[k], v)
                 end
 
                 if settings.wantedLevel then
@@ -120,72 +146,80 @@ function updatePlayerNames()
                     SetMpGamerTagHealthBarColour(tag, settings.healthColor)
                 end
             else
-                SetMpGamerTagVisibility(tag, gtComponent.GAMER_NAME, false)
-                SetMpGamerTagVisibility(tag, gtComponent.healthArmour, false)
-                SetMpGamerTagVisibility(tag, gtComponent.AUDIO_ICON, false)
+                -- ซ่อนทุก component เมื่อไกลเกินกำหนด
+                SetMpGamerTagVisibility(tag, GamerTagComponent.GAMER_NAME,    false)
+                SetMpGamerTagVisibility(tag, GamerTagComponent.HEALTH_ARMOUR, false)
+                SetMpGamerTagVisibility(tag, GamerTagComponent.AUDIO_ICON,    false)
             end
-        elseif mpGamerTags[i] then
-            RemoveMpGamerTag(mpGamerTags[i].tag)
 
-            mpGamerTags[i] = nil
-        end
+        -- elseif activeTags[playerId] then
+        --     -- player ออกจาก active list แล้ว → ลบ tag
+        --     RemoveMpGamerTag(activeTags[playerId].tag)
+        --     activeTags[playerId] = nil
+        -- end
     end
 end
 
-local function getSettings(id)
-    local i = GetPlayerFromServerId(tonumber(id))
+-- ============================================================
+-- Network Events
+-- ============================================================
 
-    if not mpGamerTagSettings[i] then
-        mpGamerTagSettings[i] = makeSettings()
-    end
-
-    return mpGamerTagSettings[i]
-end
-
+-- รับ config จาก server (setName, setComponentColor ฯลฯ)
 RegisterNetEvent('playernames:configure')
-
-AddEventHandler('playernames:configure', function(id, key, ...)
-    local args = table.pack(...)
+AddEventHandler('playernames:configure', function(serverId, key, ...)
+    local args     = table.pack(...)
+    local playerId = GetPlayerFromServerId(tonumber(serverId))
+    local settings = getOrCreateSettings(playerId)
 
     if key == 'tglc' then
-        getSettings(id).toggles[args[1]] = args[2]
-    elseif key == 'seta' then
-        getSettings(id).alphas[args[1]] = args[2]
-    elseif key == 'setc' then
-        getSettings(id).colors[args[1]] = args[2]
-    elseif key == 'setw' then
-        getSettings(id).wantedLevel = args[1]
-    elseif key == 'sehc' then
-        getSettings(id).healthColor = args[1]
-    elseif key == 'rnme' then
-        getSettings(id).rename = true
-    elseif key == 'name' then
-        getSettings(id).serverName = args[1]
-        getSettings(id).rename = true
-    elseif key == 'tpl' then
-        for _, v in pairs(mpGamerTagSettings) do
-            v.rename = true
-        end
+        settings.toggles[args[1]] = args[2]
 
+    elseif key == 'seta' then
+        settings.alphas[args[1]] = args[2]
+
+    elseif key == 'setc' then
+        settings.colors[args[1]] = args[2]
+
+    elseif key == 'setw' then
+        settings.wantedLevel = args[1]
+
+    elseif key == 'sehc' then
+        settings.healthColor = args[1]
+
+    elseif key == 'name' then
+        -- server ส่งชื่อ custom มา → เก็บไว้ใน serverName แล้ว mark ว่าต้อง rebuild
+        settings.serverName = args[1]
+        settings.rename     = true
+
+    elseif key == 'tpl' then
+        -- template เปลี่ยน → mark ทุก player ว่าต้อง rebuild ชื่อ
+        for _, s in pairs(tagSettings) do
+            s.rename = true
+        end
         templateStr = args[1]
     end
 end)
 
-AddEventHandler('playernames:extendContext', function(i, cb)
-    cb('serverName', getSettings(GetPlayerServerId(i)).serverName)
+-- inject {{serverName}} ให้ formatPlayerNameTag ใช้ได้ใน template
+AddEventHandler('playernames:extendContext', function(playerId, cb)
+    local settings = getOrCreateSettings(GetPlayerFromServerId(GetPlayerServerId(playerId)))
+    cb('serverName', settings.serverName)
 end)
 
+-- ลบ gamer tag ทั้งหมดเมื่อ resource หยุดทำงาน
 AddEventHandler('onResourceStop', function(name)
     if name == GetCurrentResourceName() then
-        for _, v in pairs(mpGamerTags) do
-            RemoveMpGamerTag(v.tag)
+        for _, entry in pairs(activeTags) do
+            RemoveMpGamerTag(entry.tag)
         end
     end
 end)
 
+-- ============================================================
+-- เริ่มทำงาน
+-- ============================================================
 SetTimeout(0, function()
     TriggerServerEvent('playernames:init')
 end)
 
--- run this function every frame
 SetTimeout(0, updatePlayerNames)

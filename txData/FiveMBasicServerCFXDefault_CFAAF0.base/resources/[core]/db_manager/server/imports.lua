@@ -1,0 +1,1 @@
+DB = exports["db_manager"]:getSharedObj()

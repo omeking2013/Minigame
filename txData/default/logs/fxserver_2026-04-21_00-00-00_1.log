@@ -1,0 +1,508 @@
+================================================================
+======== Log Rotated - 21/4/2569 10:08:58                       
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16368] FXServer Starting - 21/4/2569 10:09:00         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [5136] FXServer Starting - 21/4/2569 10:13:55          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[   script:connecting] Player Brain (source: 65538) is connecting...
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[   script:connecting] Player Brain is connecting with source ID: 65541
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[         script:core] Core Utils Loaded: getIdFromSource, fetchDiscordData
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[         script:core] Core Utils Loaded: getIdFromSource, fetchDiscordData
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[         script:core] Core Utils Loaded: getIdFromSource, fetchDiscordData
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure connecting
+[           resources] Stopping resource connecting
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[         script:core] Checking identifier for source 65545: discord → nil
+[         script:core] Checking identifier for source 65545: discord → nil
+[         script:core] Checking identifier for source 65545: discord → nil
+[         script:core] Checking identifier for source 65545: discord → nil
+[         script:core] Checking identifier for source 65545: discord → 1067668437901520976
+[   script:connecting] Fetched Discord ID for player Brain: 1067668437901520976
+[         script:core] SCRIPT ERROR: @core/server/utils.lua:138: attempt to concatenate a nil value (field 'DISCORD_BOT_TOKEN')
+[         script:core] > fetchDiscordData (@core/server/utils.lua:138)
+[         script:core] > handler (@core/server/utils.lua:144)
+[         script:core] > handler (@connecting/server/main.lua:44)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 1/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ stop connecting
+[           resources] Stopping resource connecting
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Checking identifier for source 65546: discord → nil
+[         script:core] Checking identifier for source 65546: discord → nil
+[         script:core] Checking identifier for source 65546: discord → nil
+[         script:core] Checking identifier for source 65546: discord → nil
+[         script:core] Checking identifier for source 65546: discord → 1067668437901520976
+[         script:core] Fetched Discord ID for player Brain: 1067668437901520976
+[         script:core] [CoreUtils] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1992] FXServer Starting - 21/4/2569 13:57:52          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 30 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[ citizen-server-impl] Couldn't find resource connecting.
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[         script:core] [CoreUtils] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[         script:core] [CoreUtils] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[   script:db_manager] Data inserted into mg_players successfully!
+[         script:core] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] event core/player:getPlayerData was not safe for net
+[   script:db_manager] SCRIPT ERROR: @db_manager/server/main.lua:132: bad argument #1 to 'for iterator' (table expected, got string)
+[   script:db_manager] > ref (@db_manager/server/main.lua:132)
+[   script:db_manager] > savePlayerData (@core/server/player.lua:66)
+[   script:db_manager] > handler (@core/server/main.lua:10)
+[         script:core] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[         script:core] [CoreUtils] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[         script:core] Loaded player: Brain (ID: 2)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] SCRIPT ERROR: @db_manager/server/main.lua:132: bad argument #1 to 'for iterator' (table expected, got string)
+[   script:db_manager] > ref (@db_manager/server/main.lua:132)
+[   script:db_manager] > savePlayerData (@core/server/player.lua:66)
+[   script:db_manager] > handler (@core/server/main.lua:10)
+[         script:core] SCRIPT ERROR: error object is not a string
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Loaded player: Brain (ID: 3)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = steam:110000105dc23fe successfully!
+[         script:core] Saved data for player: Brain (ID: 3)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data inserted into mg_players successfully!
+[         script:core] Loaded player: Brain (ID: 4)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.100:60128->223.206.220.123:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] Loaded player: Brain (ID: 4)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] Loaded player: Brain (ID: 4)
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] Loaded player: Brain (ID: 4)
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 4)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 4)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 4)
+[         script:core] [CoreUtils] Player data not found for source 4, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 4)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] Saved data for player: Brain (ID: 4)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[   script:db_manager] Data inserted into mg_players successfully!
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.100:41896->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.100:60944->223.206.220.123:30120: read: connection reset by peer)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": read tcp 10.0.11.239:59272->223.206.220.123:30120: read: connection reset by peer)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": read tcp 10.0.16.100:46962->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)
+[         script:core] [CoreUtils] Player data not found for source 5, loading new data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 5)

@@ -11,6 +11,6 @@ for /d %%i in ("%ROOT_DIR%txData\*.base") do (
 )
 
 echo Starting FXServer...
-"%ROOT_DIR%artifact\FXServer.exe" +set serverProfile "default"
+"%ROOT_DIR%artifact\FXServer.exe" +set serverProfile "default" +set txAdminPort 40120
 
 pause

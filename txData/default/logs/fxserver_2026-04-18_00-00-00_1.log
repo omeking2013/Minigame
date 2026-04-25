@@ -1,0 +1,2009 @@
+================================================================
+======== Log Rotated - 18/4/2569 00:03:39                       
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14912] FXServer Starting - 18/4/2569 00:03:41         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] SCRIPT ERROR: @database/server/main.lua:147: attempt to call a nil value (global 'export')
+[     script:database] > fn (@database/server/main.lua:147)
+[     script:database] SCRIPT ERROR: @database/server/example.lua:24: attempt to index a nil value (global 'DB')
+[     script:database] > fn (@database/server/example.lua:24)
+[           resources] Started resource database
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [9528] FXServer Starting - 18/4/2569 00:04:17          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] SCRIPT ERROR: @database/server/example.lua:24: attempt to index a nil value (global 'DB')
+[     script:database] > fn (@database/server/example.lua:24)
+[           resources] Started resource database
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [23744] FXServer Starting - 18/4/2569 00:05:30         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [13128] FXServer Starting - 18/4/2569 00:21:48         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'minigame'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "minigame",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17044] FXServer Starting - 18/4/2569 00:22:05         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: CREATE TABLE IF NOT EXISTS mg_players (identifier VARCHAR(60) NOT NULL PRIMARY KEY, name VARCHAR(100) NOT NULL, skin LONGTEXT NOT NULL, updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, )
+[      script:oxmysql] []
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1452] FXServer Starting - 18/4/2569 00:22:57          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [12044] FXServer Starting - 18/4/2569 00:24:30         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[     script:database] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: database was unable to execute a query!
+[     script:database] Query: SELECT * FROM mg_players WHERE * = ?
+[     script:database] ["identifier = @identifier"]
+[     script:database] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* = 'identifier = @identifier'' at line 1
+[     script:database] > logError (@oxmysql/dist/build.js:25870)
+[     script:database] > rawQuery (@oxmysql/dist/build.js:26053)
+[     script:database] > processTicksAndRejections (node:internal/process/task_queues:96)
+[     script:database] 
+[     script:database] > fn (@database/server/example.lua:27)
+[     script:database] > logError (@oxmysql/dist/build.js:25870)
+[     script:database] > rawQuery (@oxmysql/dist/build.js:26053)
+[     script:database] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [20080] FXServer Starting - 18/4/2569 00:25:46         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22400] FXServer Starting - 18/4/2569 00:26:04         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[     script:database] {"name":"Ome","skin":"{\"eyebrows_6\":0,\"tshirt_2\":0,\"watches_1\":-1,\"bproof_2\":0,\"bracelets_2\":0,\"cheeks_3\":0,\"nose_6\":0,\"beard_4\":0,\"hair_color_2\":0,\"blemishes_2\":0,\"lipstick_3\":0,\"eyebrows_4\":0,\"face_g_weight\":0,\"mask_1\":0,\"skin_md_weight\":50,\"ears_2\":0,\"bodyb_2\":0,\"decals_1\":0,\"age_2\":0,\"chest_3\":0,\"shoes_2\":0,\"chain_2\":0,\"bags_1\":0,\"bodyb_3\":-1,\"eyebrows_3\":0,\"lip_thickness\":0,\"bodyb_1\":-1,\"eye_squint\":0,\"chin_3\":0,\"bracelets_1\":-1,\"nose_3\":0,\"complexion_1\":0,\"tshirt_1\":0,\"eye_color\":31,\"blush_1\":0,\"mask_2\":0,\"beard_3\":0,\"chain_1\":0,\"chest_2\":0,\"neck_thickness\":0,\"hair_color_1\":0,\"eyebrows_2\":0,\"chin_4\":0,\"beard_1\":0,\"helmet_2\":0,\"blush_2\":0,\"chin_1\":0,\"cheeks_2\":0,\"arms_2\":0,\"complexion_2\":0,\"torso_1\":0,\"decals_2\":0,\"hair_1\":20,\"moles_1\":0,\"torso_2\":4,\"chin_2\":0,\"eyebrows_5\":0,\"cheeks_1\":0,\"sex\":0,\"makeup_3\":0,\"bodyb_4\":0,\"grandparents\":0,\"shoes_1\":34,\"nose_2\":0,\"bproof_1\":0,\"makeup_2\":10,\"jaw_2\":0,\"age_1\":0,\"makeup_1\":49,\"bags_2\":0,\"arms\":0,\"blemishes_1\":0,\"dad\":0,\"watches_2\":0,\"chest_1\":0,\"nose_4\":0,\"eyebrows_1\":0,\"lipstick_2\":0,\"ears_1\":-1,\"blush_3\":0,\"glasses_2\":0,\"moles_2\":0,\"pants_2\":0,\"mom\":0,\"sun_1\":0,\"face_md_weight\":50,\"helmet_1\":-1,\"jaw_1\":0,\"sun_2\":0,\"glasses_1\":-1,\"lipstick_1\":0,\"makeup_4\":0,\"lipstick_4\":0,\"nose_5\":0,\"hair_2\":0,\"nose_1\":0,\"beard_2\":2,\"pants_1\":6}","identifier":"7030c3c917405804e3f7bdff9900af6ff0869bdb","updated_at":1776446643000.0}
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [11860] FXServer Starting - 18/4/2569 00:26:36         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[     script:database] null
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [20572] FXServer Starting - 18/4/2569 00:30:01         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [13452] FXServer Starting - 18/4/2569 00:30:58         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Failed to update player data.
+[     script:database] Failed to delete player data.
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [5392] FXServer Starting - 18/4/2569 00:31:54          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] nil
+[     script:database] Failed to update player data.
+[     script:database] nil
+[     script:database] Failed to delete player data.
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO mg_players () VALUES (?, ?, ?)
+[      script:oxmysql] [null,null,null]
+[      script:oxmysql] Column count doesn't match value count at row 1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [9420] FXServer Starting - 18/4/2569 00:33:22          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Data inserted into mg_players successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO mg_players () VALUES (?, ?, ?)
+[      script:oxmysql] [null,null,null]
+[      script:oxmysql] Column count doesn't match value count at row 1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17260] FXServer Starting - 18/4/2569 01:08:35         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: CREATE TABLE IF NOT EXISTS mg_players (name VARCHAR(100) NOT NULLidentifier VARCHAR(60) NOT NULL PRIMARY KEYupdated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMPskin LONGTEXT NOT NULL)
+[      script:oxmysql] []
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLidentifier VARCHAR(60) NOT NULL PRIMARY KEYupdated_at TIMESTAMP DEFAULT C...' at line 1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [4772] FXServer Starting - 18/4/2569 01:13:14          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: CREATE TABLE IF NOT EXISTS mg_players (nil VARCHAR(60) NOT NULL PRIMARY KEY, nil VARCHAR(100) NOT NULL, nil LONGTEXT NOT NULL, nil TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
+[      script:oxmysql] []
+[      script:oxmysql] Duplicate column name 'nil'
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [11780] FXServer Starting - 18/4/2569 01:13:57         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [6292] FXServer Starting - 18/4/2569 01:14:31          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[     script:database] Data inserted into mg_players successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14720] FXServer Starting - 18/4/2569 01:17:28         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[     script:database] Data inserted into mg_players successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO mg_players (identifier, skin, name) VALUES (?, ?, ?)
+[      script:oxmysql] ["7030c3c917405804e3f7bdff9900af6ff0869bdb","{\"model\":\"mp_m_freemode_01\",\"props\":[],\"components\":[]}","John Doe"]
+[      script:oxmysql] Duplicate entry '7030c3c917405804e3f7bdff9900af6ff0869bdb' for key 'PRIMARY'
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19308] FXServer Starting - 18/4/2569 01:18:22         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [3024] FXServer Starting - 18/4/2569 01:39:43          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] No such command resources_root_path.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [6828] FXServer Starting - 18/4/2569 01:41:06          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16024] FXServer Starting - 18/4/2569 01:41:21         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[     script:database] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:oxmysql] Error: database was unable to execute a query!
+[      script:oxmysql] Query: UPDATE mg_players SET name = ?, skin = ? WHERE identifier = ?
+[      script:oxmysql] ["Jane Doe",{"props":[],"model":"mp_f_freemode_01","components":[]},"7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `model` = 'mp_f_freemode_01', `components` =  WHERE identifier = '7030c3c917...' at line 1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16240] FXServer Starting - 18/4/2569 01:43:17         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for database
+[     script:database] Table mg_players created successfully!
+[     script:database] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[           resources] Started resource database
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19788] FXServer Starting - 18/4/2569 13:01:47         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [544] FXServer Starting - 18/4/2569 13:02:05           
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║Watcharapong_Soponpa║ ensure mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[           resources] Started resource mg_core
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [11916] FXServer Starting - 18/4/2569 13:10:17         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[           resources] Started resource mg_core
+[   script:db_manager] Column 'updated_at' added to table 'mg_players' successfully!
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[38;5;73m[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.13.120:52684->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:51884->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22220] FXServer Starting - 18/4/2569 17:05:38         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [23504] FXServer Starting - 18/4/2569 17:05:49         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for mg_core
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] Table mg_players created successfully!
+[   script:db_manager] Column 'account' added to table 'mg_players' successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [26296] FXServer Starting - 18/4/2569 17:10:07         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for mg_core
+[      script:mg_core] [DEBUG] Queue debug commands พร้อมใช้งาน
+[      script:mg_core] [DEBUG] Commands: debugfull | debugopen | debugstate | debugtick | debugslot | debugjackpot | debugscore | debugadmit
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] Table mg_players created successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ debugstate
+[      script:mg_core] ══════ DEBUG STATE ══════
+[      script:mg_core] Queue size   : 0
+[      script:mg_core] Active player: 0
+[      script:mg_core] Max players  : 0
+[      script:mg_core] Saved entries: 0
+[      script:mg_core] ─────────────────────────
+[      script:mg_core] ═════════════════════════
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure mg_core
+[      script:mg_core] [QUEUE] บันทึกคิวเรียบร้อยแล้ว
+[           resources] Stopping resource mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[      script:mg_core] [DEBUG] Queue debug commands พร้อมใช้งาน
+[      script:mg_core] [DEBUG] Commands: debugfull | debugopen | debugstate | debugtick | debugslot | debugjackpot | debugscore | debugadmit
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+║Watcharapong_Soponpa║ debugfulll
+[                 cmd] No such command debugfulll.
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure mg_core
+[      script:mg_core] [QUEUE] บันทึกคิวเรียบร้อยแล้ว
+[           resources] Stopping resource mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[      script:mg_core] [DEBUG] Queue debug commands พร้อมใช้งาน
+[      script:mg_core] [DEBUG] Commands: debugfull | debugopen | debugstate | debugtick | debugslot | debugjackpot | debugscore | debugadmit
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+║Watcharapong_Soponpa║ debugfulll
+[                 cmd] No such command debugfulll.
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ mg_cor
+[                 cmd] No such command mg_cor.
+║Watcharapong_Soponpa║ mg_core
+[                 cmd] No such command mg_core.
+║Watcharapong_Soponpa║ ensure mg_core
+[      script:mg_core] [QUEUE] บันทึกคิวเรียบร้อยแล้ว
+[           resources] Stopping resource mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[      script:mg_core] [DEBUG] Queue debug commands พร้อมใช้งาน
+[      script:mg_core] [DEBUG] Commands: debugfull | debugopen | debugstate | debugtick | debugslot | debugjackpot | debugscore | debugadmit
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+║Watcharapong_Soponpa║ ensure mg_core
+[      script:mg_core] [QUEUE] บันทึกคิวเรียบร้อยแล้ว
+[           resources] Stopping resource mg_core
+[    c-scripting-core] Creating script environments for mg_core
+[   script:db_manager] Table mg_players created successfully!
+[      script:mg_core] [DEBUG] Queue debug commands พร้อมใช้งาน
+[      script:mg_core] [DEBUG] Commands: debugfull | debugopen | debugstate | debugtick | debugslot | debugjackpot | debugscore | debugadmit
+[      script:mg_core] [QUEUE] ระบบคิวเริ่มทำงานแล้ว | maxPlayers=32
+[           resources] Started resource mg_core
+║Watcharapong_Soponpa║ debugfull
+[      script:mg_core] [DEBUG] maxPlayers ตั้งเป็น 0 → เซิร์ฟเวอร์เต็มแล้ว (จำลอง)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:44320->223.206.217.16:30120: read: connection reset by peer)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [7540] FXServer Starting - 18/4/2569 17:43:30          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] Table mg_players created successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [26808] FXServer Starting - 18/4/2569 17:44:24         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] Table 'mg_players' created successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [27144] FXServer Starting - 18/4/2569 17:46:37         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] table: 0000029E5EF5B2C0
+[   script:db_manager] {"info":"","changedRows":0,"insertId":0,"affectedRows":0,"fieldCount":0,"warningStatus":1,"serverStatus":2}
+[   script:db_manager] Table 'mg_players' created successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [23868] FXServer Starting - 18/4/2569 17:47:11         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [24544] FXServer Starting - 18/4/2569 17:47:24         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22760] FXServer Starting - 18/4/2569 17:47:59         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] {"serverStatus":2,"info":"","affectedRows":0,"changedRows":0,"warningStatus":0,"fieldCount":0,"insertId":0}
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [25772] FXServer Starting - 18/4/2569 17:48:36         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] {"changedRows":0,"affectedRows":0,"serverStatus":2,"fieldCount":0,"warningStatus":1,"info":"","insertId":0}
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [15212] FXServer Starting - 18/4/2569 17:50:06         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] Existing columns in table 'mg_players': []
+[   script:db_manager] Column 'identifier' added to table 'mg_players' successfully!
+[   script:db_manager] Column 'name' added to table 'mg_players' successfully!
+[   script:db_manager] Column 'skin' added to table 'mg_players' successfully!
+[   script:db_manager] Column 'account' added to table 'mg_players' successfully!
+[   script:db_manager] Column 'updated_at' added to table 'mg_players' successfully!
+[      script:oxmysql] Error: db_manager was unable to execute a query!
+[      script:oxmysql] Query: ALTER TABLE mg_players ADD COLUMN name VARCHAR(100) NOT NULL
+[      script:oxmysql] []
+[      script:oxmysql] Table 'minigames.mg_players' doesn't exist
+[      script:oxmysql] Error: db_manager was unable to execute a query!
+[      script:oxmysql] Query: ALTER TABLE mg_players ADD COLUMN identifier VARCHAR(255) NOT NULL
+[      script:oxmysql] []
+[      script:oxmysql] Table 'minigames.mg_players' doesn't exist
+[      script:oxmysql] Error: db_manager was unable to execute a query!
+[      script:oxmysql] Query: ALTER TABLE mg_players ADD COLUMN skin LONGTEXT NOT NULL
+[      script:oxmysql] []
+[      script:oxmysql] Table 'minigames.mg_players' doesn't exist
+[      script:oxmysql] Error: db_manager was unable to execute a query!
+[      script:oxmysql] Query: ALTER TABLE mg_players ADD COLUMN account LONGTEXT NOT NULL
+[      script:oxmysql] []
+[      script:oxmysql] Table 'minigames.mg_players' doesn't exist
+[      script:oxmysql] Error: db_manager was unable to execute a query!
+[      script:oxmysql] Query: ALTER TABLE mg_players ADD COLUMN updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+[      script:oxmysql] []
+[      script:oxmysql] Table 'minigames.mg_players' doesn't exist
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [24280] FXServer Starting - 18/4/2569 17:51:58         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [28392] FXServer Starting - 18/4/2569 18:06:23         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[         script:core] Error parsing script @core/server/queue.lua in resource core: @core/server/queue.lua:23: '}' expected (to close '{' at line 22) near ':'
+[    c-scripting-core] Failed to load script server/queue.lua.
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [12128] FXServer Starting - 18/4/2569 18:06:38         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Card submitted with data:	[]	{}
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": read tcp 10.0.16.100:42060->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:37278->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.15.105:49128->223.206.217.16:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": read tcp 10.0.16.100:55320->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.16.100:59520->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:50774->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.15.105:55244->223.206.217.16:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.16.100:52870->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))

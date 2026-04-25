@@ -1,0 +1,1093 @@
+================================================================
+======== Log Rotated - 24/4/2569 13:57:37                       
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [2460] FXServer Starting - 24/4/2569 13:57:38          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[       script:ox_lib] SCRIPT ERROR: @ox_lib/resource/init.lua:50: Unable to load UI. Build ox_lib or download the latest release.
+[       script:ox_lib] 	https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+[       script:ox_lib] > fn (@ox_lib/resource/init.lua:50)
+[    resources:ox_lib] Warning: could not find file `web/build/index.html` (defined in fxmanifest.lua:21)
+[           resources] Started resource ox_lib (1 warning)
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:67: Unable to load UI. Build ox_lib or download the latest release.
+[         script:core] 	https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+[         script:core] SCRIPT ERROR: @core/server/player.lua:13: attempt to index a nil value (global 'lib')
+[         script:core] > fn (@core/server/player.lua:13)
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure "ox_lib"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource ox_lib
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure "core"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[         script:core] SCRIPT ERROR: @core/server/utils.lua:178: attempt to call a nil value (global 'log')
+[         script:core] > GetDiscordDataFromId (@core/server/utils.lua:178)
+[         script:core] > constructor (@core/server/player.lua:25)
+[         script:core] > new (@ox_lib/imports/class/server.lua:79)
+[         script:core] > handler (@core/server/main.lua:6)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] SCRIPT ERROR: @core/server/player.lua:70: attempt to call a nil value (global 'log')
+[         script:core] > getPlayerFromId (@core/server/player.lua:70)
+[         script:core] > handler (@core/server/player.lua:77)
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 1/30 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] [CoreUtils] Player data not found for source 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] SCRIPT ERROR: @core/server/player.lua:79: attempt to index a nil value (local 'playerData')
+[         script:core] > handler (@core/server/player.lua:79)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] SCRIPT ERROR: @core/server/player.lua:80: attempt to index a nil value (local 'playerData')
+[         script:core] > handler (@core/server/player.lua:80)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] SCRIPT ERROR: @core/server/player.lua:80: attempt to index a nil value (local 'playerData')
+[         script:core] > handler (@core/server/player.lua:80)
+[         script:core] [CoreUtils] Player data not found for source 1
+[         script:core] SCRIPT ERROR: @core/server/player.lua:80: attempt to index a nil value (local 'playerData')
+[         script:core] > handler (@core/server/player.lua:80)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] Player name : 	Brain
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:58: attempt to index a nil value (local 'self')
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:24)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[         script:core] Saving data for player: Brain (ID: 1)
+[         script:core] SCRIPT ERROR: @core/server/player.lua:58: attempt to index a nil value (local 'self')
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:25)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[         script:core] Resource stopping: 	core
+[         script:core] Saving data for player: Brain (ID: 1)
+[         script:core] SCRIPT ERROR: @core/server/player.lua:58: attempt to index a nil value (local 'self')
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:26)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[         script:core] Resource stopping: 	core
+[         script:core] Saving data for player: Brain (ID: 1)
+[         script:core] SCRIPT ERROR: @core/server/player.lua:58: attempt to index a nil value (local 'self')
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:26)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/30 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[         script:core] [CoreUtils] Saved data for player: Brain (ID: 1)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[         script:core] [CoreUtils] Saved data for player: Brain (ID: 1)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:48: attempt to index a nil value (local 'self')
+[         script:core] > saveDatabase (@core/server/player.lua:48)
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:24)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:48: attempt to index a nil value (local 'self')
+[         script:core] > saveDatabase (@core/server/player.lua:48)
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:24)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/30 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:48: attempt to index a nil value (local 'self')
+[         script:core] > saveDatabase (@core/server/player.lua:48)
+[         script:core] > deConstructor (@core/server/player.lua:58)
+[         script:core] > handler (@core/server/main.lua:24)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": read tcp 10.0.16.235:38074->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14244] FXServer Starting - 24/4/2569 14:57:54         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 33 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:63: attempt to index a nil value (global 'Core')
+[         script:core] > fn (@core/server/player.lua:63)
+[      resources:core] Warning: could not find client_script `client/common.lua` (defined in fxmanifest.lua:27)
+[           resources] Started resource core (1 warning)
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/main.lua:15: attempt to index a nil value (global 'Core')
+[         script:core] > handler (@core/server/main.lua:15)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[         script:core] SCRIPT ERROR: @core/server/player.lua:63: attempt to index a nil value (global 'Core')
+[         script:core] > fn (@core/server/player.lua:63)
+[      resources:core] Warning: could not find client_script `client/common.lua` (defined in fxmanifest.lua:27)
+[           resources] Started resource core (1 warning)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 1/31 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[         script:core] SCRIPT ERROR: @core/server/main.lua:15: attempt to index a nil value (global 'Core')
+[         script:core] > handler (@core/server/main.lua:15)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: @core/server/player.lua:56: attempt to call a nil value (global 'log')
+[         script:core] > CreateCorePlayer (@core/server/player.lua:56)
+[         script:core] > handler (@core/server/main.lua:3)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26045)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.235:43538->223.206.220.123:30120: read: connection reset by peer)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: @core/server/player.lua:56: attempt to call a nil value (global 'log')
+[         script:core] > CreateCorePlayer (@core/server/player.lua:56)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:71)
+[         script:core] > handler (@core/server/player.lua:105)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26045)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[ citizen-server-impl] server thread hitch warning: timer interval of 204 milliseconds
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.235:43538->223.206.220.123:30120: read: connection reset by peer)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 1/31 resources.
+[           resources] 1 warning was encountered.
+[ citizen-server-impl] server thread hitch warning: timer interval of 196 milliseconds
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 110000105dc23fe successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[   script:db_manager] Data inserted into mg_players successfully!
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure db_manager
+[           resources] Stopping resource core
+[           resources] Stopping resource db_manager
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+║Watcharapong_Soponpa║ ensure core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure core
+[   script:db_manager] QUERY:	UPDATE mg_players SET skin = ?, account = ?, position = ?, name = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value=[]
+[   script:db_manager]   [2] type=string value=[]
+[   script:db_manager]   [3] type=string value={"z":82.37,"y":90.82,"x":131.66,"heading":155.91}
+[   script:db_manager]   [4] type=string value=Brain
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ ensure db_manager
+[   script:db_manager] QUERY:	UPDATE mg_players SET account = ?, skin = ?, position = ?, name = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value=[]
+[   script:db_manager]   [2] type=string value=[]
+[   script:db_manager]   [3] type=string value={"y":90.82,"x":131.66,"heading":155.91,"z":82.37}
+[   script:db_manager]   [4] type=string value=Brain
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[           resources] Stopping resource core
+[           resources] Stopping resource db_manager
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure db_manager
+[           resources] Stopping resource db_manager
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+║Watcharapong_Soponpa║ ensure core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Watcharapong_Soponpa\",\"message\":\"Server restarting (admin request).\"}"
+[   script:db_manager] QUERY:	UPDATE mg_players SET position = ?, skin = ?, name = ?, account = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value={"x":137.25,"heading":184.25,"z":82.76,"y":79.36}
+[   script:db_manager]   [2] type=string value=[]
+[   script:db_manager]   [3] type=string value=Brain
+[   script:db_manager]   [4] type=string value=[]
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+[   script:db_manager] QUERY:	UPDATE mg_players SET position = ?, skin = ?, name = ?, account = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value={"x":137.25,"heading":184.25,"z":82.76,"y":79.36}
+[   script:db_manager]   [2] type=string value=[]
+[   script:db_manager]   [3] type=string value=Brain
+[   script:db_manager]   [4] type=string value=[]
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Saved data for player: Brain (ID: 1)
+[         script:core] [CoreUtils] Saved data for player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Saved data for player: Brain (ID: 1)
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [5544] FXServer Starting - 24/4/2569 15:25:50          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 33 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[   script:db_manager] QUERY:	UPDATE mg_players SET name = ?, position = ?, account = ?, skin = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value=Brain
+[   script:db_manager]   [2] type=string value={"z":82.76,"heading":184.25,"x":137.25,"y":79.36}
+[   script:db_manager]   [3] type=string value=[]
+[   script:db_manager]   [4] type=string value=[]
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ stop core
+[   script:db_manager] QUERY:	UPDATE mg_players SET position = ?, name = ?, account = ?, skin = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value={"x":137.25,"y":79.36,"z":82.76,"heading":184.25}
+[   script:db_manager]   [2] type=string value=Brain
+[   script:db_manager]   [3] type=string value=[]
+[   script:db_manager]   [4] type=string value=[]
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[           resources] Stopping resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+║Watcharapong_Soponpa║ start core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ stop core
+[   script:db_manager] QUERY:	UPDATE mg_players SET name = ?, position = ?, account = ?, skin = ? WHERE identifier = ?
+[   script:db_manager] VALUES COUNT:	5
+[   script:db_manager]   [1] type=string value=Brain
+[   script:db_manager]   [2] type=string value={"heading":184.25,"x":137.25,"y":79.36,"z":82.76}
+[   script:db_manager]   [3] type=string value=[]
+[   script:db_manager]   [4] type=string value=[]
+[   script:db_manager]   [5] type=string value=7030c3c917405804e3f7bdff9900af6ff0869bdb
+[           resources] Stopping resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[   script:db_manager] SCRIPT ERROR: Execution of function reference in script host failed: 
+[   script:db_manager] > rawQuery (@oxmysql/dist/build.js:26045)
+[   script:db_manager] > processTicksAndRejections (node:internal/process/task_queues:96)
+║Watcharapong_Soponpa║ start core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ start core
+║Watcharapong_Soponpa║ ensure core
+[         script:core] [CoreUtils] Player data for Brain (ID: 1) saved successfully.
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] SCRIPT ERROR: @core/server/player.lua:15: attempt to call a nil value (global 'GetIdFromSource')
+[         script:core] > CreateCorePlayer (@core/server/player.lua:15)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:74)
+[         script:core] > handler (@core/server/player.lua:107)
+[         script:core] SCRIPT ERROR: @core/server/player.lua:22: attempt to call a nil value (global 'GetDiscordDataFromId')
+[         script:core] > CreateCorePlayer (@core/server/player.lua:22)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:74)
+[         script:core] > handler (@core/server/player.lua:107)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] SCRIPT ERROR: @core/server/utils.lua:151: attempt to call a nil value (global 'GetIdFromSource')
+[         script:core] > GetDiscordDataFromId (@core/server/utils.lua:151)
+[         script:core] > CreateCorePlayer (@core/server/player.lua:22)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:74)
+[         script:core] > handler (@core/server/player.lua:107)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[         script:core] [CoreUtils] {"bank":5000,"money":1000}
+[         script:core] SCRIPT ERROR: @core/server/player.lua:60: attempt to call a nil value (global 'GetPlayerPosition')
+[         script:core] > saveDatabase (@core/server/player.lua:60)
+[         script:core] > SavePlayers (@core/server/player.lua:152)
+[         script:core] > handler (@core/server/main.lua:17)
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Failed to decode account data for player Brain (ID: 1). Using default account.
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[         script:core] [CoreUtils] {"bank":5000,"money":1000}
+[         script:core] [CoreUtils] Player data for Brain (ID: 1) saved successfully.
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] [CoreUtils] Loaded player: Brain (ID: 1)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": read tcp 10.0.16.235:57090->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.235:35086->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": read tcp 10.0.16.236:56312->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": read tcp 10.0.16.236:43064->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[  script:es_extended] [esx_migration:v1.13.5:jobTypes] Column not found, altering jobs table.
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/migration/main.lua:27: [ERROR] Failed migration ['v1.13.5.jobTypes']: @es_extended/server/migration/v1.13.5/jobType/main.lua:24: es_extended was unable to execute a query!
+[  script:es_extended] Query:       ALTER TABLE `jobs`
+[  script:es_extended]         ADD COLUMN `type` VARCHAR(50) NOT NULL DEFAULT 'civ' AFTER `label`
+[  script:es_extended]     
+[  script:es_extended] []
+[  script:es_extended] Table 'minigames.jobs' doesn't exist
+[  script:es_extended] > fn (@es_extended/server/migration/main.lua:27)
+[  script:es_extended] > logError (@oxmysql/dist/build.js:25870)
+[  script:es_extended] > rawQuery (@oxmysql/dist/build.js:26053)
+[  script:es_extended] > processTicksAndRejections (node:internal/process/task_queues:96)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Watcharapong_Soponpa\",\"message\":\"Server restarting (admin request).\"}"
+[         script:core] [CoreUtils] Player data for Brain (ID: 1) saved successfully.
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+[         script:core] Player Brain (ID: 1) has left the server. Saving data...
+[         script:core] SCRIPT ERROR: @core/server/player.lua:135: attempt to call a nil value (global 'log')
+[         script:core] > SavePlayer (@core/server/player.lua:135)
+[         script:core] > handler (@core/server/main.lua:10)
+[   script:db_manager] Data updated in mg_players where identifier = 7030c3c917405804e3f7bdff9900af6ff0869bdb successfully!
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19232] FXServer Starting - 24/4/2569 18:03:48         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 35 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/33 resources.
+[           resources] 1 warning was encountered.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/info.json (Get "https://223.206.220.123:30120/info.json": read tcp 10.0.16.235:38108->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": read tcp 10.0.16.236:56600->223.206.220.123:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [25500] FXServer Starting - 24/4/2569 22:15:05         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 36 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[           resources] Started resource loading_screen
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[   script:db_manager] 'core_players' created successfully!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+[         script:core] SCRIPT ERROR: @core/server/connecting.lua:12: attempt to call a nil value (global 'GetIdFromSource')
+[         script:core] > handler (@core/server/connecting.lua:12)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 000002B1FC5FEC00 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 000002B1FC5FEC00 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > handler (@core/server/main.lua:3)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 000002B1FC841680 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 000002B1FC841680 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:112)
+[         script:core] > GetPlayerCleanDataFromId (@core/server/player.lua:118)
+[         script:core] > handler (@core/server/player.lua:159)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] SCRIPT ERROR: @core/server/main.lua:9: attempt to index a nil value (field '?')
+[         script:core] > handler (@core/server/main.lua:9)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/players.json (Get "https://223.206.220.123:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [4068] FXServer Starting - 24/4/2569 22:34:04          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 35 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[resources:loading_sc] Warning: could not find client_script `client.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource loading_screen (1 warning)
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 00000146DFBBDB80 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 00000146DFBBDB80 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > handler (@core/server/main.lua:3)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 00000146DFDF0600 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 00000146DFDF0600 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:112)
+[         script:core] > GetPlayerCleanDataFromId (@core/server/player.lua:118)
+[         script:core] > handler (@core/server/player.lua:159)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] SCRIPT ERROR: @core/server/main.lua:9: attempt to index a nil value (field '?')
+[         script:core] > handler (@core/server/main.lua:9)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [20428] FXServer Starting - 24/4/2569 22:42:38         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 35 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[resources:loading_sc] Warning: could not find client_script `client.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource loading_screen (1 warning)
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for skinchanger
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.12.0)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.13.2
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.6)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.32.5
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 000001CAB08FDB80 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 000001CAB08FDB80 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > handler (@core/server/main.lua:3)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] [CoreUtils] Waiting for Discord data...
+[         script:core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:580: SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:484: db_manager was unable to execute a query!
+[         script:core] Query: SELECT * FROM table: 000001CAB0B50600 WHERE identifier = ?
+[         script:core] ["7030c3c917405804e3f7bdff9900af6ff0869bdb"]
+[         script:core] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table: 000001CAB0B50600 WHERE identifier = '7030c3c917405804e3f7bdff9900af6ff...' at line 1
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[         script:core] 
+[         script:core] > CreateCorePlayer (@core/server/player.lua:35)
+[         script:core] > GetPlayerFromId (@core/server/player.lua:112)
+[         script:core] > GetPlayerCleanDataFromId (@core/server/player.lua:118)
+[         script:core] > handler (@core/server/player.lua:159)
+[         script:core] > logError (@oxmysql/dist/build.js:25870)
+[         script:core] > rawQuery (@oxmysql/dist/build.js:26053)
+[         script:core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[         script:core] SCRIPT ERROR: @core/server/main.lua:9: attempt to index a nil value (field '?')
+[         script:core] > handler (@core/server/main.lua:9)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.220.123:30120/dynamic.json (Get "https://223.206.220.123:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))

@@ -1,0 +1,696 @@
+================================================================
+======== Log Rotated - 19/4/2569 01:49:21                       
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [10028] FXServer Starting - 19/4/2569 01:49:22         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [13056] FXServer Starting - 19/4/2569 01:55:03         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 28 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[         script:core] Player Brain is connecting with Discord ID: 1067668437901520976, Steam ID: 110000105dc23fe
+[         script:core] Generated Profile Card JSON:	{"$schema":"http://adaptivecards.io/schemas/adaptive-card.json","version":"1.4","actions":[{"data":{"submitId":"confirm"},"style":"positive","title":"✓ Continue","type":"Action.Submit"},{"data":{"submitId":"cancel"},"style":"destructive","title":"✕ Cancel","type":"Action.Submit"}],"body":[{"columns":[{"items":[{"text":"AZAEL DEV","weight":"Bolder","color":"Accent","size":"Medium","type":"TextBlock"}],"width":"auto","type":"Column"},{"items":[{"text":"www.azael.dev","isSubtle":true,"horizontalAlignment":"Right","color":"Default","size":"Small","type":"TextBlock"}],"width":"stretch","type":"Column"}],"spacing":"None","type":"ColumnSet"},{"type":"Separator"},{"text":"YOUR ACCOUNT(S)","horizontalAlignment":"Center","spacing":"Medium","weight":"Bolder","size":"Large","type":"TextBlock"},{"columns":[{"items":[{"text":"💬 DISCORD","spacing":"None","weight":"Bolder","color":"Accent","size":"Small","type":"TextBlock"},{"style":"Person","size":"Small","url":"https://cdn.discordapp.com/embed/avatars/0.png","type":"Image"},{"facts":[{"title":"User ID","value":"1067668437901520976"},{"title":"Username","value":"Brain"},{"title":"Display Name","value":"Brain"},{"title":"Type","value":"⭐ PRIMARY"}],"type":"FactSet"}],"style":"emphasis","width":1,"type":"Column"},{"items":[{"text":"🎮 STEAM","spacing":"None","weight":"Bolder","size":"Small","type":"TextBlock"},{"style":"Person","size":"Small","url":"https://cdn.discordapp.com/embed/avatars/1.png","type":"Image"},{"facts":[{"title":"Hex ID","value":"110000105dc23fe"},{"title":"Dec ID","value":"0"},{"title":"Display Name","value":"Brain"},{"title":"Type","value":"🔗 BINDING"}],"type":"FactSet"}],"style":"emphasis","width":1,"type":"Column"}],"spacing":"Medium","type":"ColumnSet"},{"type":"Separator"},{"text":"โปรดตรวจสอบข้อมูลบัญชีของคุณก่อนดำเนินการต่อ หากคุณใช้บัญชี Steam ที่ไม่ได้ผูกกับ Discord การเชื่อมต่อจะถูกปฏิเสธ","spacing":"Small","size":"Small","color":"Warning","wrap":true,"type":"TextBlock"},{"text":"Disclaimer: UI above has been provided by the server and is **not part of the FiveM UI**","isSubtle":true,"spacing":"Small","size":"Small","wrap":true,"type":"TextBlock"}],"type":"AdaptiveCard"}
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Player Brain is connecting with Discord ID: 1067668437901520976, Steam ID: 110000105dc23fe
+[         script:core] Generated Profile Card JSON:	table: 0000014A3262F480
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Player Brain is connecting with Discord ID: 1067668437901520976, Steam ID: 110000105dc23fe
+[         script:core] Generated Profile Card JSON:	table: 0000014A39ACF480
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] Player Brain is connecting with Discord ID: 1067668437901520976, Steam ID: 110000105dc23fe
+[         script:core] Generated Profile Card JSON:	table: 0000014A39D3F480
+[         script:core] Player Brain is connecting with Discord ID: 1067668437901520976, Steam ID: 110000105dc23fe
+[         script:core] Generated Profile Card JSON:	table: 0000014A3A191640
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] []
+[         script:core] Raw data:	{}
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] submitId:	nil
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:42812->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[         script:core] SCRIPT ERROR: @core/server/queue.lua:4: attempt to index a nil value (global 'DeferralCards')
+[         script:core] > handler (@core/server/queue.lua:4)
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure core
+[           resources] Stopping resource core
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [34932] FXServer Starting - 19/4/2569 16:25:52         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for pre_connect
+[  script:pre_connect] Error parsing script @pre_connect/shared/config.lua in resource pre_connect: @pre_connect/shared/config.lua:4: '}' expected (to close '{' at line 1) near 'DEBUG'
+[    c-scripting-core] Failed to load script shared/config.lua.
+[           resources] Started resource pre_connect
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[    c-scripting-core] script error in native 000000006ccd2564: Argument at index 0 was null.
+[  script:pre_connect] SCRIPT ERROR: native 000000006ccd2564: Argument at index 0 was null.
+[  script:pre_connect] > GetConvar (GetConvar.lua:6)
+[  script:pre_connect] > fn (@pre_connect/shared/config.lua:4)
+[           resources] Started resource pre_connect
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[    c-scripting-core] script error in native 00000000ff7f66ab: Argument at index 0 was null.
+[  script:pre_connect] SCRIPT ERROR: native 00000000ff7f66ab: Argument at index 0 was null.
+[  script:pre_connect] > GetNumPlayerIdentifiers (GetNumPlayerIdentifiers.lua:3)
+[  script:pre_connect] > getDiscordId (@pre_connect/server/main.lua:9)
+[  script:pre_connect] > handler (@pre_connect/server/main.lua:44)
+[    c-scripting-core] script error in native 00000000ff7f66ab: Argument at index 0 was null.
+[  script:pre_connect] SCRIPT ERROR: native 00000000ff7f66ab: Argument at index 0 was null.
+[  script:pre_connect] > GetNumPlayerIdentifiers (GetNumPlayerIdentifiers.lua:3)
+[  script:pre_connect] > getDiscordId (@pre_connect/server/main.lua:9)
+[  script:pre_connect] > handler (@pre_connect/server/main.lua:44)
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[  script:pre_connect] Error parsing script @pre_connect/server/main.lua in resource pre_connect: @pre_connect/server/main.lua:41: <name> expected near '<'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource pre_connect
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] SCRIPT ERROR: @pre_connect/server/main.lua:17: attempt to index a nil value (global 'config')
+[  script:pre_connect] > fetchDiscordData (@pre_connect/server/main.lua:17)
+[  script:pre_connect] > handler (@pre_connect/server/main.lua:52)
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] HTTP 401 for discordId 1067668437901520976 → invalid_token
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] SCRIPT ERROR: @pre_connect/server/main.lua:127: attempt to index a nil value (global 'config')
+[  script:pre_connect] > fetchDiscordData (@pre_connect/server/main.lua:127)
+[  script:pre_connect] > handler (@pre_connect/server/main.lua:144)
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] SCRIPT ERROR: @pre_connect/server/main.lua:147: attempt to index a nil value (global 'DeferralCards')
+[  script:pre_connect] > callback (@pre_connect/server/main.lua:147)
+[  script:pre_connect] > userCallback (@pre_connect/server/main.lua:126)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] SCRIPT ERROR: @pre_connect/server/main.lua:147: attempt to index a nil value (global 'DeferralCards')
+[  script:pre_connect] > callback (@pre_connect/server/main.lua:147)
+[  script:pre_connect] > userCallback (@pre_connect/server/main.lua:126)
+║Watcharapong_Soponpa║ refresh
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:46316->223.206.217.16:30120: read: connection reset by peer)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[  script:pre_connect] Error parsing script @pre_connect/server/main.lua in resource pre_connect: @pre_connect/server/main.lua:170: '}' expected (to close '{' at line 148) near 'DeferralCards'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource pre_connect
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [37484] FXServer Starting - 19/4/2569 17:04:02         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] SCRIPT ERROR: @pre_connect/server/main.lua:155: attempt to call a nil value (method 'ImageSet')
+[  script:pre_connect] > errorDefCards (@pre_connect/server/main.lua:155)
+[  script:pre_connect] > callback (@pre_connect/server/main.lua:181)
+[  script:pre_connect] > userCallback (@pre_connect/server/main.lua:125)
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:46286->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [36172] FXServer Starting - 19/4/2569 18:35:46         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for pre_connect
+[  script:pre_connect] Error parsing script @pre_connect/server/main.lua in resource pre_connect: @pre_connect/server/main.lua:227: '}' expected (to close '{' at line 225) near ':'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource pre_connect
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [41728] FXServer Starting - 19/4/2569 18:36:21         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:41044->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:38542->223.206.217.16:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.3.49:40144->223.206.217.16:30120: read: connection reset by peer (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.11.239:42324->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[  script:pre_connect] Error parsing script @pre_connect/server/main.lua in resource pre_connect: @pre_connect/server/main.lua:233: '}' expected (to close '{' at line 232) near ':'
+[    c-scripting-core] Failed to load script server/main.lua.
+[           resources] Started resource pre_connect
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:1 | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": read tcp 10.0.16.100:58812->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[resources:pre_connec] Warning: could not find server_script `server/library/deferralsCards.lua` (defined in fxmanifest.lua:14)
+[           resources] Started resource pre_connect (1 warning)
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 1/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ refresh
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[           resources] 1 warning was encountered.
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║Watcharapong_Soponpa║ ensure pre_connect
+[           resources] Stopping resource pre_connect
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [49604] FXServer Starting - 19/4/2569 23:13:43         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for pre_connect
+[           resources] Started resource pre_connect
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": read tcp 10.0.16.100:53616->223.206.217.16:30120: read: connection reset by peer)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[  script:pre_connect] [DiscordRole] Fetched [ommie90#0 | globalName:โอมพูดดีๆหน่อย | nick:โอม | roles:["948572792276807700"] | avatar:https://cdn.discordapp.com/avatars/1067668437901520976/b42bebce659033081970f6c00c8d7129.png?size=1024]
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [48300] FXServer Starting - 19/4/2569 23:34:04         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[resources:boilerplat] Warning: boilerplate does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 29 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for db_manager
+[           resources] Started resource db_manager
+[    c-scripting-core] Creating script environments for connecting
+[           resources] Started resource connecting
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://watcharapong-soponpa-dxyb4d.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/dynamic.json (Get "https://223.206.217.16:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/info.json (Get "https://223.206.217.16:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://223.206.217.16:30120/players.json (Get "https://223.206.217.16:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))

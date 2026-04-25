@@ -1,0 +1,96 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 01:49:19
+================================================================
+================================================================
+======== Log Rotated - 19/4/2569 01:49:20                       
+================================================================
+[01:51:48][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 01:55:02
+================================================================
+[01:55:14][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[01:55:48][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[01:57:24][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[01:58:09][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[01:58:09][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:00:49][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:01:04][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:06:08][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:06:38][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:11:07][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:11:39][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:12:05][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[02:12:06][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+[02:12:07][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[02:12:08][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure core"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 16:25:49
+================================================================
+[16:26:14][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[16:26:45][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:27:54][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:28:49][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:28:56][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:29:19][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:33:25][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:34:21][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:40:16][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:48:48][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:50:45][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:50:45][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:51:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:51:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:56:13][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:56:13][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:57:11][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:57:11][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:58:07][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:58:07][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:59:25][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:59:26][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:59:39][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:59:40][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[16:59:48][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[16:59:48][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 17:04:02
+================================================================
+[17:04:31][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[17:04:33][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:05:09][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:06:59][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:10:43][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:13:54][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:17:34][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[17:17:34][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[17:20:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[17:20:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 18:35:45
+================================================================
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 18:36:20
+================================================================
+[18:36:55][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+[18:37:00][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[21:25:34][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[21:26:22][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[21:54:40][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:46:20][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:46:27][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[22:46:27][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:48:33][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "refresh"
+[22:48:34][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:49:25][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:53:48][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:54:06][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:56:11][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+[22:56:28][Watcharapong_Soponpa] [Watcharapong_Soponpa] executed "ensure pre_connect"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 23:13:43
+================================================================
+[23:13:49][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 19/4/2569 23:34:03
+================================================================
+[00:01:20][Watcharapong_Soponpa] logged in from 127.0.0.1 via cfxre
